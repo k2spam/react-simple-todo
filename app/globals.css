@@ -1,4 +1,11 @@
 :root {
+  --todo-color-red1: #e99;
+  --todo-color-red2: #c77;
+  --todo-color-green1: #9e9;
+  --todo-color-green2: #7c7;
+  --todo-color-gray: #555;
+  --todo-border: 1px solid #aaa;
+
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',

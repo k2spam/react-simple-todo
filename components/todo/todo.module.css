@@ -1,0 +1,54 @@
+.todo {}
+
+.btn {
+    margin: 0 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add {
+    padding: 5px 14px;
+    background: var(--todo-color-green1);
+    border: 1px solid var(--todo-color-green2);
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.del {
+    background: var(--todo-color-red1);
+    border: 1px solid var(--todo-color-red2);
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.field {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: var(--todo-border);
+    color: var(--todo-color-gray);
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    overflow: hidden;
+    padding: 7px 0;
+    border-bottom: var(--todo-border);
+}
+
+.listItem:first-child {
+    border-top: var(--todo-border);
+}
